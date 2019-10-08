@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "bloom-filter-cpp": "1.1.8",
-    "hashset-cpp": "2.2.1",
+    "hashset-cpp": "dbellavista/hashset-cpp",
     "nan": "^2.13.2"
   },
   "devDependencies": {
@@ -27,7 +27,7 @@
     "build": "make",
     "sample": "make sample",
     "perf": "make perf",
-	"preinstall": "npm install bloom-filter-cpp@1.1.8 && npm install hashset-cpp@2.2.1",
+	"preinstall": "npm install bloom-filter-cpp@1.1.8 && npm install hashset-cpp-v10",
     "install": "node-gyp rebuild",
     "lint": "npm run lint-cpp && npm run lint-js",
     "lint-cpp": "./scripts/cpplint.py",
