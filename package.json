@@ -7,7 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "bloom-filter-cpp": "mailtokartik1/bloom-filter-cpp/tree/dev",
+    "bloom-filter-cpp": "github:fvulich/bloom-filter-cpp",
     "hashset-cpp": "^2.1.1",
     "nan": "^2.13.2"
   },
@@ -27,7 +27,7 @@
     "build": "make",
     "sample": "make sample",
     "perf": "make perf",
-	"preinstall": "npm install bloom-filter-cpp@mailtokartik1/bloom-filter-cpp/tree/dev && npm install hashset-cpp",
+	"preinstall": "npm install bloom-filter-cpp@github:fvulich/bloom-filter-cpp && npm install hashset-cpp",
     "install": "node-gyp rebuild",
     "lint": "npm run lint-cpp && npm run lint-js",
     "lint-cpp": "./scripts/cpplint.py",
